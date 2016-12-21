@@ -1,0 +1,42 @@
+a{
+    text-decoration: none;
+}
+
+#cadastrar{
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 15px;
+    -webkit-border-bottom-left-radius: 8px;
+    -webkit-border-bottom-right-radius: 15px;   
+    -moz-border-radius-bottomleft: 8px;
+    -moz-border-radius-bottomright: 8px;
+    height: 40px;
+    width: 120px;
+    font: 400 18px Oswald;
+    background: #f1f1f1;
+    text-align: center;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+}
+
+#cadastrar a{
+    padding: 5px;
+    display: block;
+    color: #999;
+    font: 400 18px Oswald;
+}
+
+#cadastrar:hover a{
+    color: #fff;
+}
+
+#cadastrar:hover{
+    background: #09f;
+    color: #fff;
+}
+
+#cadastrar:hover,#cadastrar{
+    transition: all 0.5s linear;
+    -webkit-transition: all 0.5s linear;
+    -moz-transition: all 0.5s linear;;
+}
